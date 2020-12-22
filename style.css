@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: palegoldenrod;
+  position: relative;
+}
+
+h1,
+h2,
+h3 {
+  align-items: center;
+  text-align: center;
+}
+h3 {
+  color: blueviolet;
+}
+h1 {
+  color: red;
+}
+
+button {
+  position: relative;
+  padding: 10px;
+  margin: 10px;
+  top: 5vh;
+  left: 45.5vw;
+  background-color: burlywood;
+  border-radius: 10%;
+  border: black 3px dotted;
+  color: red;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: palegreen;
+}
+
+.container {
+  /* background-color: red; */
+  position: absolute;
+  top: 40vh;
+  left: 45vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.square {
+  background-color: blue;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  cursor: crosshair;
+}
+
+.mole {
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 50px;
+}
